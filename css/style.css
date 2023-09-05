@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.container-small {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-12 {
+	flex-basis: calc((100% / 12) * 12);
+}
+
+.col-10 {
+	flex-basis: calc((100% / 12) * 10);
+}
+
+.col-8 {
+	flex-basis: calc((100% / 12) * 8);
+}
+
+.col-4 {
+	flex-basis: calc((100% / 12) * 4);
+}
+
+.col-2 {
+	flex-basis: calc((100% / 12) * 2);
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.reversed-section .row {
+	flex-direction: row-reverse;
+}
+
+.bg-gray {
+	background-color: #d3d3d3;
+}
+
+.button {
+    border: 10px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+/* Header */
+
+.page-header {
+	background-color: #255EE9;
+	padding: 10px;
+}
+
+.discord-logo {
+    display: block;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-link {
+    padding: 10px;
+}
+
+.header-link:hover {
+    color: rgb(181, 248, 248);
+}
+
+.header-button {
+    background-color: white;
+    color: black;
+    border: 8px solid white;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;       
+}
+
+/* Main */
+
+main section {
+    padding: 20px;
+}
+/* First Section */
+
+.debug .page-footer {
+	background-color: #23272a;
+	padding: 10px;
+}
+
+
+.hero {    
+    padding-top: 60px;
+    background-size: cover;    
+	background-image: url(../img/jumbo.png)        
+}
+
+.col-12, h2, p{
+    color: white;
+    text-align: center;    
+    padding-bottom: 30px;
+}
+
+.download-button {
+    background-color: white;
+    color: black; 
+    margin-right: 20px;
+}
+
+.open-button {
+    background-color: black;
+    border: 10px solid black;             
+}
+
+.hero-button {
+    margin-bottom: 100px;
+}
+
+
+/* Second Section */
+
+
+
+.debug main [class^='col-'] {
+	min-height: 200px;
+	padding: 20px;
+}
+
+.debug footer [class^='col-'] {
+	min-height: 200px;
+	padding: 20px;
+	border: 2px dashed white;
+}
+
+.debug footer .col {
+	padding: 20px;
+	border: 2px dashed white;
+	color: white;
+}
+
+main .col-8 {
+	
+}
+
+.debug main .col-4 {
+	background-color: #ffc0cb;
+}
+
+.debug .cta-section .col-12 {
+	background-color: #228b22;
+	min-height: 400px;
+}
