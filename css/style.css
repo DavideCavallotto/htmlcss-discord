@@ -6,7 +6,7 @@
 }
 
 .container {
-	max-width: 800px;
+	max-width: 800px;   
 	margin: 0 auto;
 }
 
@@ -15,10 +15,14 @@
 	margin: 0 auto;
 }
 
+.img-fluid {
+    width: 100%;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .col-12 {
@@ -71,6 +75,7 @@
 
 .font-40 {
     font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .font-18 {
@@ -78,6 +83,10 @@
 }
 
 /* Header */
+
+.row-header {
+    align-items: center;
+}
 
 .page-header {
 	background-color: #255EE9;
@@ -117,24 +126,24 @@ main section {
     padding: 20px;
 }
 /* First Section */
-
-.debug .page-footer {
-	background-color: #23272a;
-	padding: 10px;
+.row-hero {
+    align-items: center;
 }
-
-
 .hero {    
     padding-top: 60px;
     background-size: cover;    
 	background-image: url(../img/jumbo.png)        
 }
 
-.col-12, h2, p{
-    color: white;
+.h2-hero, .p-hero {
     text-align: center;    
     padding-bottom: 30px;
 }
+
+.col-12 {
+    color: white;
+    text-align: center;
+    }
 
 .download-button {
     background-color: white;
@@ -153,35 +162,50 @@ main section {
 
 
 /* Second Section */
+.row-second {
+    margin-top: 30px;
+}
 
+.col-4 {
+    color: black;
+    font-weight: 700;  
+        
+}
 
+.h2-discord-group {
+    margin-bottom: 30px;
+}
 
 .debug main [class^='col-'] {
-	min-height: 200px;
+    min-height: 200px;
 	padding: 20px;
 }
 
 .debug footer [class^='col-'] {
-	min-height: 200px;
+    min-height: 200px;
 	padding: 20px;
 	border: 2px dashed white;
 }
 
 .debug footer .col {
-	padding: 20px;
+    padding: 20px;
 	border: 2px dashed white;
 	color: white;
 }
 
 main .col-8 {
-	
+    /* background-color: blue; */
 }
 
-.debug main .col-4 {
-	background-color: #ffc0cb;
-}
+/* .debug main .col-4 {
+    background-color: #ffc0cb;   
+} */
 
+.debug .page-footer {
+    background-color: #23272a;
+    padding: 10px;
+}
 .debug .cta-section .col-12 {
-	background-color: #228b22;
+    background-color: #228b22;
 	min-height: 400px;
 }
