@@ -6,7 +6,7 @@
 }
 
 .container {
-	max-width: 800px;   
+	max-width: 900px;   
 	margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@
 .button {
     border: 10px solid white;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
 }
@@ -196,34 +196,93 @@ main section {
     justify-content: center;
 }
 
-
-
-/* .debug main [class^='col-'] {
-    min-height: 200px;
-	padding: 20px;
+.bg-button {
+    background-color: #8EA1E1;
+    color: white;
+    border: 10px solid #8EA1E1;
+    margin: 0px 160px;      
 }
 
-.debug footer [class^='col-'] {
-    min-height: 200px;
-	padding: 20px;
-	border: 2px dashed white;
+/* Footer */
+.page-footer {
+    background-color: #23272A;
+    min-height: 430px;
 }
 
-.debug footer .col {
-    padding: 20px;
-	border: 2px dashed white;
-	color: white;
-} */
-
-/* .debug main .col-4 {
-    background-color: #ffc0cb;   
-} */
-/* 
-.debug .page-footer {
-    background-color: #23272a;
-    padding: 10px;
+.footer-row {
+    align-items: center;
 }
-.debug .cta-section .col-12 {
-    background-color: #228b22;
-	min-height: 400px;
-} */
+
+.blue-h2 {
+    font-size: 35px;
+    color: #7289DA;
+    line-height: 1px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.flag {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-right: 2px;
+    vertical-align: middle;
+    
+}
+
+.ita {
+    display: inline-block;
+    margin-left: 2px;
+    color: white;
+}
+
+.down-ar {
+    vertical-align: bottom;
+    line-height: 1px;
+}
+
+.social-network {
+    width: 110px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.col-2 {
+    margin-top: 65px;
+}
+
+.w-p {
+    color: white;
+    line-height: 30px;
+    
+}
+
+.col-2 :first-child {
+    color: rgb(114, 137, 218);
+}
+
+.test {
+    min-height: 50px;
+    margin-top: 30px;
+
+}
+
+.interow {
+    min-height: 50px;
+    border-top: 1px solid #8EA1E1;      
+}
+
+.logod {
+    width: 110px;
+    height: 30px; 
+}
+
+.register-button {
+    background-color: #8EA1E1;
+    color: white;
+    border: 10px solid #8EA1E1;
+    margin-top: 10px;
+}
+
