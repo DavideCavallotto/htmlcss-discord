@@ -34,7 +34,7 @@
 }
 
 .col-8 {
-	flex-basis: calc((100% / 12) * 8);
+	flex-basis: calc((100% / 12) * 8);    
 }
 
 .col-4 {
@@ -57,12 +57,12 @@
 	justify-content: space-between;
 }
 
-.reversed-section .row {
+/* .reversed-section .row {
 	flex-direction: row-reverse;
-}
+} */
 
 .bg-gray {
-	background-color: #d3d3d3;
+	background-color: #F6F6F6;
 }
 
 .button {
@@ -75,6 +75,7 @@
 
 .font-40 {
     font-size: 40px;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 
@@ -172,11 +173,32 @@ main section {
         
 }
 
-.h2-discord-group {
+.h2-discord {
     margin-bottom: 30px;
 }
 
-.debug main [class^='col-'] {
+/* Fifth Section */
+
+.p-bold {
+    font-weight: 700;
+}
+
+.big-description {
+    text-align: center;
+}
+
+.h2-star {
+    text-align: center;
+    font-size: 30px;
+}
+
+.row-bg {
+    justify-content: center;
+}
+
+
+
+/* .debug main [class^='col-'] {
     min-height: 200px;
 	padding: 20px;
 }
@@ -191,16 +213,12 @@ main section {
     padding: 20px;
 	border: 2px dashed white;
 	color: white;
-}
-
-main .col-8 {
-    /* background-color: blue; */
-}
+} */
 
 /* .debug main .col-4 {
     background-color: #ffc0cb;   
 } */
-
+/* 
 .debug .page-footer {
     background-color: #23272a;
     padding: 10px;
@@ -208,4 +226,4 @@ main .col-8 {
 .debug .cta-section .col-12 {
     background-color: #228b22;
 	min-height: 400px;
-}
+} */
