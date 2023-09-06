@@ -225,10 +225,10 @@ main section {
 .blue-h2 {
     font-size: 35px;
     color: #7289DA;
-    margin-top: 50px;
-    line-height: 1px;
+    margin-top: 50px;    
     line-height: 35px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    padding-top: 10px;    
     
 }
 
