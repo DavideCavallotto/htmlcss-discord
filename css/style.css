@@ -132,6 +132,7 @@ main section {
 }
 .hero {    
     padding-top: 60px;
+    background-position: center;
     background-size: cover;    
 	background-image: url(../img/jumbo.png)        
 }
