@@ -124,7 +124,7 @@ a {
 /* Main */
 
 main section {
-    padding: 20px;
+    padding: 100px;
 }
 /* First Section */
 .row-hero {
@@ -140,6 +140,12 @@ main section {
 .h2-hero, .p-hero {
     text-align: center;    
     padding-bottom: 30px;
+    
+}
+
+.h2-discord {
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 .col-12 {
@@ -174,9 +180,6 @@ main section {
         
 }
 
-.h2-discord {
-    margin-bottom: 30px;
-}
 
 /* Fifth Section */
 
